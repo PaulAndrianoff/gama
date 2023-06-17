@@ -1,0 +1,12 @@
+// components.scss
+
+.button {
+    @include button-styles;
+  }
+  
+  .alert {
+    padding: $spacing-md;
+    border: 1px solid $secondary-color;
+    border-radius: 4px;
+  }
+  

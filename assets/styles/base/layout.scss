@@ -1,0 +1,20 @@
+// layout.scss
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: $spacing-md;
+  }
+  
+  .header {
+    background-color: $primary-color;
+    color: #fff;
+    padding: $spacing-md;
+  }
+  
+  .footer {
+    background-color: $secondary-color;
+    color: #fff;
+    padding: $spacing-md;
+  }
+  

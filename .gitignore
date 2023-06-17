@@ -1,0 +1,31 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore composer generated files
+/composer.phar
+/composer.lock
+/vendor/
+
+# Ignore IDE-specific files
+/.idea/
+/.vscode/
+
+# Ignore build artifacts
+/build/
+/public/assets/
+
+# Ignore configuration files with sensitive information
+/config.php
+
+# Ignore log files
+/logs/
+
+# Ignore session files
+/sessions/
+
+# Ignore environment-specific files
+/.env
+
+# Ignore miscellaneous files
+*.log
+*.zip
