@@ -16,5 +16,7 @@ $gamaPhpConfig = $config;
 $appConfig = $config['app'];
 $dbConfig = $config['database'];
 
-// Configure database connection
-DB::connect($dbConfig['host'], $dbConfig['database'], $dbConfig['username'], $dbConfig['password']);
+if ('' !== $dbConfig['host']) {
+    // Configure database connection
+    DB::connect($dbConfig['host'], $dbConfig['database'], $dbConfig['username'], $dbConfig['password']);
+}
